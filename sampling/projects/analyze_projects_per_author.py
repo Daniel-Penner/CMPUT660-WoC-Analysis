@@ -1,6 +1,6 @@
 #First run the following in terminal to find a list of authors that can be looked up directly for a2p:
 # zcat ../A2cSampleU.s.gz | cut -d';' -f2 | sort -u > authors_u.txt
-# cat projects_u.txt | ~/lookup/getValues -f p2c > author_commits.tsv
+# cat projects_u.txt | ~/lookup/getValues -f a2c > author_commits.tsv
 
 #!/usr/bin/env python3
 import os
